@@ -3,6 +3,7 @@ plugins {
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.android.hilt)
     alias(libs.plugins.google.ksp)
+    alias(libs.plugins.kotlin.serialization)
 }
 
 android {
@@ -60,7 +61,8 @@ dependencies {
 
     // retrofit
     implementation(libs.retrofit)
-    implementation(libs.gson)
+    implementation(libs.kotlinx.serialization)
+    implementation(libs.retrofit.converter)
 
     // http client
     implementation(libs.okHttp)
