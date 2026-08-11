@@ -67,6 +67,9 @@ dependencies {
     // http client
     implementation(libs.okHttp)
 
+    // navigation
+    implementation(libs.androidx.navigation)
+
     // testing
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

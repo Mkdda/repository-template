@@ -1,2 +1,2 @@
-# repository-template
-A starter template for building new projects faster with a basic gradle configuration.
+# Project description
+Add a description about your project
